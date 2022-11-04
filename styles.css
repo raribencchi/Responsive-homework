@@ -22,15 +22,11 @@ h3 {
 h1 {
   font-size: 96px;
   line-height: 1.5;
-  text-align: center;
-  margin: 0;
 }
 
 h2 {
   font-size: 64px;
-  text-align: center;
-  margin: 0;
-}
+  }
 
 p {
   font-weight: normal;
@@ -56,6 +52,19 @@ p {
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+}
+
+.navigation-links{
+  display: block;
+  align-items: center;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+
+
 }
 
 .btn-branding {
@@ -104,7 +113,17 @@ p {
     text-align: center;
   }
 
+  .about-paragraph {
+    text-align: center;
+    padding: 0;
+  }
+
+  .contact-link {
+   align-items: center;
+  
   }
 *, ::after, ::before {
     box-sizing: border-box;
+}
+
 }
